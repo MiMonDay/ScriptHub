@@ -1,0 +1,32 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MiMonDay/Gui/main/Gui"))()
+
+
+local p = Library:Window("Scriptster")
+
+p:Button("DexV3", function(v)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+end)
+
+p:Button("SimpleSPY", function(v)
+loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
+end)
+
+p:Button("FEIY", function(v)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MiMonDay/Fe_IY/main/FE_IY"))()
+end)
+
+p:Button("SimpleHYR", function(v)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MiMonDay/SimpleHy/main/SimpleHyr"))()
+end)
+
+p:Button("Editor ScriptV1", function(v)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MiMonDay/Script-Editor/main/Editor_Script"))()
+end)
+
+p:Button("Editor ScriptV2", function(v)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MiMonDay/Scrip/main/Script_EditorV2"))()
+end)
+
+p:Button("XYZ", function(v)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MiMonDay/Script/main/Coordinates_Script"))()
+end)
